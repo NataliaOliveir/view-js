@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+body{
+   background: url('../img/istockphoto-1644508358-612x612.jpg'); 
+   background-size: cover;
+   font-family: "Boldonse", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: #000000;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label{
+    display: block;
+    margin: 5px 0;
+}
+
+.form input{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding:4px;
+    outline-width: 2;
+    outline-color: rgb(0, 0, 0);
+    outline-offset: -1px;
+    font-weight: bold;
+    font-family: "Boldonse", system-ui;
+    font-size: 14px;
+}
+
+
+.btn{
+    width: 100%;
+    margin: 16px 0;
+    padding: 0;
+    color: #000000;
+    background: hsl(273, 66%, 50%);
+    cursor: pointer;
+    outline-offset: 4px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Boldonse", system-ui;
+}
+
+.form button:active .front{
+    transform: translateY(-2px);
+}
+
+.form .front{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    background: hsl(273, 73%, 55%);
+    color: rgb(0, 0, 0);
+    transform: translateY(-6px);
+}
+
+
