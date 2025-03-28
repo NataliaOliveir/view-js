@@ -76,7 +76,7 @@ app.post('/cadastrar', async (req, res) => {
     console.log(req.body)
     const { nome, email, senha } = req.body
 
-    const sql = "insert into GU_usuarios (nome, email, senha, criado_em) values (? , ? , ?, ?)"
+    const sql = "insert into Nat_usuarios (nome, email, senha, criado_em) values (? , ? , ?, ?)"
 
     const [rows] = await connection.execute(sql, [nome, email, senha, new Date()])
 
